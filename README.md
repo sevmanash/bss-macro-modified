@@ -1,4 +1,4 @@
-# bss-macro-modified-main
+# bss-macro-modified
 
 I just added/changed some features to the macro, I will list major changes
 

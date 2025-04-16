@@ -1,4 +1,4 @@
-# bss-macro-modified
+# Modified (Existence) Macro
 
 I just added/changed some features to the macro, I will list major changes
 

@@ -191,7 +191,7 @@
             <!--Logo-->
             <div style="display: flex; gap: 1rem; align-items: center; margin-top: 1rem; justify-content: flex-end;">
                 <img src="assets/macro_icon.png" style="height: 2.8rem">
-                <div class="inter-semibold" style="font-size: 1.2rem;">Existance v2.0</div>
+                <div class="inter-semibold" style="font-size: 1.2rem;">M - Existance v2.0</div>
             </div>
             <!--Session stats-->
             <h3 class="inter-semibold title" style="margin-top: 6rem;">Session</h3>
@@ -241,7 +241,7 @@
         Chart.defaults.font.size = 20
         Chart.defaults.animation = false
         Chart.defaults.color = "#818285"
-        const hourNum = new Date().getHours()-1
+        const hourNum = (new Date().getHours() + 23) % 24;
         const hour = leadingZero(hourNum)
         const hourArray = Array.from(Array(61).keys())
         //var honeyPerMin = Array.from({length: 40}, () => Math.floor(Math.random() * 99999999999))

@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.DS_STORE
+macroLogs.log
+bin
+include
+lib
+share
+/src/node_modules
+src/webapp/test.html
+src/webhookScreenshot.png
+src/page1.png
+src/page2.png
+src/hourlyReport.png
